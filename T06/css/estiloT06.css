@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+    scroll-behavior: smooth;
+    font-size: relative;
+}
+nav {
+    float: left;      /*Desplazar el nav hacia la izquierda */
+}
+
+nav ul {
+    list-style-type: none;
+    vertical-align: top;
+    overflow: hidden;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    background-color:rgba(190, 190, 190, 0.589);
+}
+
+nav ul li {
+    float: left;
+    font-family: fantasy;
+    padding-left: 15%;
+    border-bottom: 20px;
+}
+
+nav ul li a {
+    display: block;     /*Convertir los elementos a en elementos bloque para manipular el padding*/
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    text-decoration:none;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    background-color: rgba(182, 182, 182, 0.721);
+    border-radius: 0.5em;
+    color: white;
+}
+nav ul li a:focus{
+    background-color: black;
+    color: white;
+}
+section {
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+#seccion1 {
+    padding-top: 65px;
+}
